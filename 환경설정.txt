@@ -2,7 +2,7 @@
 pip install jupyter --trusted-host pypi.org --trusted-host files.pythonhosted.org
 
 2.패키지 설치
-pip install tika faker openpyxl pyzipper pyupbit pandas matplotlib keyboard tqdm chardet requests lxml xlrd html5lib --trusted-host pypi.org --trusted-host files.pythonhosted.org
+pip install tika faker openpyxl pyzipper pandas matplotlib keyboard tqdm chardet requests lxml xlrd html5lib --trusted-host pypi.org --trusted-host files.pythonhosted.org
 
 3.requests 사내망에서 경고문구 제거
 requests.packages.urllib3.disable_warnings(requests.packages.urllib3.exceptions.InsecureRequestWarning)
